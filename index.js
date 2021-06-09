@@ -142,9 +142,9 @@ function removeFlavorByName(a, f){
     for (let i = 0; i < a.length; i++){
       if (a[i] === f){
         a.splice(i,1);
-          return a
         }
       }
+      return a
     }
 
 
