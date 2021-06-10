@@ -211,6 +211,8 @@ Use the getRandomFlavors function and new arrays below to do the following:
     3. Return a new array called randomFlavors that has a lenght of 31
 
     For example: getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors) might return ["Strawberry Cheesecake", "Eggnog,"..."Chocolate"].
+
+    ARRAYS MUST BE ABOVE FUNCTIONS
 */
 
 function getRandomFlavors(arr1, arr2, arr3, arr4) {
