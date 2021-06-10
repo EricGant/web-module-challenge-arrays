@@ -213,10 +213,16 @@ Use the getRandomFlavors function and new arrays below to do the following:
     For example: getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors) might return ["Strawberry Cheesecake", "Eggnog,"..."Chocolate"].
 */
 
-
-function getRandomFlavors(/*code here*/){
-    /*code here*/
+function getRandomFlavors(arr1, arr2, arr3, arr4) {
+    let allFlavor = arr1.concat(arr2, arr3, arr4)
+    let randomFlavors = [];
+    for (let i = 0; i < 31; i++) {
+        randomFlavors.push(allFlavor[Math.trunc(Math.random() * allFlavor.length)]);
+    }        return randomFlavors
 }
+
+getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors)
+
 
 // NEW DATA ARRAYS FOR STRETCH 2 ⬇️
 const newFlavors = [
